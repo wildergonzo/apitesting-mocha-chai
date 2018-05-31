@@ -1,0 +1,22 @@
+{
+  "name": "api-testing-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 1000"
+  },
+  "keywords": [
+    "api",
+    "mocha",
+    "chai"
+  ],
+  "author": "wilder",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "dotenv": "^5.0.1",
+    "mocha": "^5.1.1"
+  }
+}
